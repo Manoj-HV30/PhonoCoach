@@ -42,7 +42,6 @@ uvicorn backend.server:app --reload
 
 ## 3️⃣   PhonoCoach in action
 [![PhonoCoach in Action](https://i.postimg.cc/1tjyg0rG/2025-08-16-05-17.png)](https://postimg.cc/VrnxpCTv)
-[![PhonoCoach in Action](https://i.postimg.cc/0jvr50kV/2025-08-16-05-38.png)](https://postimg.cc/Vr7zDMbt)
 ### Using PhonoCoach
 
 1. Select any text on a webpage.
