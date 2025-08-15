@@ -1,0 +1,13 @@
+fastapi==0.116.1
+uvicorn==0.35.0
+openai-whisper==20250625
+torch==2.8.0+cpu
+torchaudio==2.8.0+cpu
+torchvision==0.23.0+cpu
+python-multipart==0.0.20
+pronouncing==0.2.0
+tqdm==4.67.1
+regex==2025.7.34
+requests==2.32.4
+numpy==2.1.2
+
