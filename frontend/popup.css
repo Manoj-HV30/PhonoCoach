@@ -1,0 +1,120 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    width: 350px;
+    background: linear-gradient(135deg, #f9f9f9, #e0f7fa);
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 12px;
+}
+
+#displayText {
+    display: block;
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #ffffffcc;
+    min-height: 50px;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#recordBtn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #03a9f4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#recordBtn:hover {
+    background: #0288d1;
+}
+
+#status {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 8px;
+    color: #555;
+}
+
+#similarityScore {
+    font-weight: bold;
+    color: #2a9d8f;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#phonemeDiff {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.phoneme {
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 1.6em; /* bigger font size for phonemes */
+    font-weight: 700;
+    transition: transform 0.2s;
+}
+
+.phoneme:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#pronunciationTips {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+    text-align: center;
+}
+
+#generalTips {
+    margin-top: 12px;
+    padding: 10px;
+    background: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+#generalTips h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 1.1em;
+}
+
+#generalTips ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+#generalTips ul li {
+    margin-bottom: 6px;
+    line-height: 1.4;
+    font-size: 1.1em;
+    list-style-type: disc;
+}
