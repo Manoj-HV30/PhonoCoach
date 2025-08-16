@@ -19,7 +19,11 @@ app.add_middleware(
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-
+'''
+the Whisper model "small" is loaded by default.
+Users can change it to other models based on their system’s processing power.
+namely "tiny", "base", "medium", "large".
+'''
 model = whisper.load_model("small")
 
 def calculate_similarity(expected: str, actual: str) -> float:
@@ -35,7 +39,7 @@ def text_to_phonemes(text: str) -> str:
         if phones:
             phoneme_list.append(phones[0])
         else:
-            phoneme_list.append("[UNK]")  # mark as unknown pronunciation
+            phoneme_list.append("[UNK]")
     return " ".join(phoneme_list)
 
 
