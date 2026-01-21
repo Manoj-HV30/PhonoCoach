@@ -6,7 +6,7 @@ Chrome extension with FastAPI backend for real-time pronunciation feedback using
 
 ## 2️⃣   Getting Started
 
-### 🛠️ Prerequisites
+### Prerequisites
 
 - **Python 3.12+**
 - **pip**
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 # e)Start the FastAPI backend server
 uvicorn backend.server:app --reload
 ```
-### 🖥️ Load the Chrome Extension Locally
+### Load the Chrome Extension Locally
 
 1. Open Chrome and go to `chrome://extensions/`
 2. Enable **Developer mode** (toggle in the top-right) 🛠️
@@ -50,7 +50,7 @@ uvicorn backend.server:app --reload
 3. Click **🎙 Record** to start recording your voice.
 4. Click **Stop** to upload audio and analyze pronunciation.
 5. View similarity score, phoneme-level feedback, and improvement tips.
-## 4️⃣   Features ✨
+## 4️⃣   Features 
 
 - Real-time pronunciation analysis for any selected text on any webpage
 - Phoneme-level feedback highlighting correct, incorrect, missing, and extra sounds
@@ -64,8 +64,8 @@ uvicorn backend.server:app --reload
 ## 5️⃣   Dev Notes
 
 - Make sure the backend server is running before using the Chrome extension.
-- Ensure `ffmpeg` is installed and accessible in your system PATH.  ⚡
-- ⚠️ The Chrome extension is loaded locally and is ***NOT YET PUBLISHED*** on the Web Store.
+- Ensure `ffmpeg` is installed and accessible in your system PATH.  
+- The Chrome extension is loaded locally and is ***NOT YET PUBLISHED*** on the Web Store.
 - In `backend/server.py`, the Whisper model `"small"` is loaded by default. Users can change it to other models based on their system’s processing power:
 
 | Model   | Approx. RAM Required | Recommended Use Case |
