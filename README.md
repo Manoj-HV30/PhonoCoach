@@ -36,9 +36,9 @@ uvicorn backend.server:app --reload
 ### Load the Chrome Extension Locally
 
 1. Open Chrome and go to `chrome://extensions/`
-2. Enable **Developer mode** (toggle in the top-right) 🛠️
-3. Click **Load unpacked** and select the `frontend` folder inside the cloned repo 📂
-4. The **PhonoCoach** icon should appear in your toolbar 🚀
+2. Enable **Developer mode** (toggle in the top-right) 
+3. Click **Load unpacked** and select the `frontend` folder inside the cloned repo 
+4. The **PhonoCoach** icon should appear in your toolbar 
 
 ## 3️⃣   PhonoCoach in action
 [![PhonoCoach in Action](https://i.postimg.cc/1tjyg0rG/2025-08-16-05-17.png)](https://postimg.cc/VrnxpCTv)
